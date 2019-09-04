@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3165725d-5c6b-49ff-a06d-ed4b8a51276d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.ascending.training.basic/algorithm/Fibonacci/Fibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.ascending.training.basic/algorithm/Fibonacci/Fibo.java" afterDir="false" />
-    </list>
+    <list default="true" id="3165725d-5c6b-49ff-a06d-ed4b8a51276d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,21 +95,6 @@
               <item name="javabasic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com.ascending.training.basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.ascending.training.basic" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javabasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javabasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com.ascending.training.basic" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="Fibonacci" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />

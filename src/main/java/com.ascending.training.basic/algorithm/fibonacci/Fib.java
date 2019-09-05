@@ -1,4 +1,4 @@
-package src.main.java.com.ascending.training.basic.algorithm.Fibonacci;
+package com.ascending.training.basic.algorithm.fibonacci;
 
 public class Fib {
     public long fib(long n){

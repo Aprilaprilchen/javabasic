@@ -1,4 +1,4 @@
-package java-basic;
+package javabasic;
 
 import static org.junit.Assert.assertTrue;
 

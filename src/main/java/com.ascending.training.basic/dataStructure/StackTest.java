@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class StackTest {
 
-    public static Stack<String> name = new Stack();    
+    public static Stack<String> name = new Stack();
     public static Stack<String> names = new Stack();
 
     public static void main(String[] args) {

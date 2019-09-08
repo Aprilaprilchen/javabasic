@@ -67,6 +67,6 @@ public class EqualsTest {
 
 /*
 for method ==, if it is used to compare two primitive type, it will compare the value of them;
-               if it is used to compare two reference typw, it will compare the address of them, they have to be same
+               if it is used to compare two reference type, it will compare the address of them, they have to be same
                object in order to be the same.
  */

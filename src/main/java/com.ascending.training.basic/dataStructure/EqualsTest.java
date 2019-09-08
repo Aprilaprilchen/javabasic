@@ -13,6 +13,12 @@ public class EqualsTest {
         this.email = email;
     }
 
+    /*
+    in equals method:
+    1. compare if they are same object;
+    2. compare if they are same class;
+    3. compare if they have same content;
+     */
     @Override
     public boolean equals(Object obj){
         if (this == obj)return true;
@@ -46,7 +52,10 @@ public class EqualsTest {
         System.out.println(b);
         System.out.println(bl);
 
-        //difference between hashcode and Objects.hash(obj)
+        /*difference between hashcode and Objects.hash(obj)
+        if two objects are equal, their hashcode must be the same;
+        if they have same hashcode, they don't have to be equal, but if they don't have same hashcode, they cannot be equal.
+         */
         int i = e.hashCode();
         int i2 = Objects.hash(e);
         int j = eq.hashCode();
@@ -54,5 +63,10 @@ public class EqualsTest {
         System.out.println("hashcode: " + i + " hash: " + i2);
         System.out.println("hashcode: " + j + " hash: " + j2);
     }
-
 }
+
+/*
+for method ==, if it is used to compare two primitive type, it will compare the value of them;
+               if it is used to compare two reference typw, it will compare the address of them, they have to be same
+               object in order to be the same.
+ */

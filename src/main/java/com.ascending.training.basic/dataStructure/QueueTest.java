@@ -7,15 +7,16 @@ public class QueueTest {
     public static Queue<Integer> number = new LinkedList<>();
 
     // add elements
-    public static void main(){
-        number.add(8);
-        number.add(2);
-        number.add(6);
+    public static void main(String[] args){
+//        can also use add
+        number.offer(8);
+        number.offer(2);
+        number.offer(6);
         number.add(6);
         System.out.println("the original queue: " + number);
 
-        // remove the first value
-        int n = number.remove();
+        // remove the first value, can also use remove
+        int n = number.poll();
         System.out.println("the top number: " + n);
         System.out.println("the new queue: " + number);
 

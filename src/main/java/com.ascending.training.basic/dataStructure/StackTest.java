@@ -18,6 +18,7 @@ public class StackTest {
 
         //take out the top one
         try{
+//            can use remove to remove a certain object
             String name2 = name.pop();
             System.out.println("top name of the stack: " + name2);
             System.out.println("the rest names: " + name);

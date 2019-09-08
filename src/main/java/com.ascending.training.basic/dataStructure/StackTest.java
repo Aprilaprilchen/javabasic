@@ -36,18 +36,18 @@ public class StackTest {
 
         //check if the stack is empty
         System.out.println("Whether the stack name is empty? " + name.isEmpty());
-        System.out.println("Whether the stack names is empty? " + names.isEmpty());
+        System.out.println("Whether the stack name is empty? " + names.isEmpty());
 
         //find the size of stack
         System.out.println("the stack size is: " + name.size());
 
         //search for an element
-        int position = name.search("Elena");
+        int position = name.search("Jermey");
 
         if (position != -1){
-            System.out.println("Elena is in position" + position);
+            System.out.println("Jermey is in position" + position);
         }else {
-            System.out.println("She is not in the stack of name");
+            System.out.println("He is not in the stack of name");
         }
     }
 }

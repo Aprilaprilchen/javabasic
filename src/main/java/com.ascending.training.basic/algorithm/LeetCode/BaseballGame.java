@@ -42,8 +42,8 @@ public class BaseballGame {
 
     public static void main(String[] args){
         String[] ops = {"5", "2", "C", "D", "+"};
-        BaseballGame s = new BaseballGame();
-        int sum = s.calPoints(ops);
+        BaseballGame baseballGame = new BaseballGame();
+        int sum = baseballGame.calPoints(ops);
         System.out.println("sum number is: " + sum);
     }
 

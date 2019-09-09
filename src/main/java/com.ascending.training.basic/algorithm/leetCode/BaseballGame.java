@@ -1,7 +1,5 @@
-package com.ascending.training.basic.algorithm.LeetCode;
+package com.ascending.training.basic.algorithm.leetCode;
 
-        import java.util.ArrayList;
-        import java.util.List;
         import java.util.Stack;
 
 public class BaseballGame {

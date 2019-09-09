@@ -1,12 +1,15 @@
 package com.ascending.training.basic.algorithm.traverse;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class BFSTest {
 
     public static void bfs(Node root){
         Queue<Node> queue = new LinkedList<>();
+        List<String> result = new ArrayList<>();
         if (root != null){
             queue.offer(root);
         }else {
@@ -14,14 +17,16 @@ public class BFSTest {
         }
         while (queue.size()!= 0){
             Node templateNode = queue.poll();
-            System.out.println(templateNode);
+//            System.out.println(templateNode);
             if (templateNode.left != null){
                 queue.offer(templateNode.left);
             }
             if (templateNode.right != null){
                 queue.offer(templateNode.right);
             }
+            result.add(templateNode.toString());
         }
+        System.out.println(result);
     }
 
 

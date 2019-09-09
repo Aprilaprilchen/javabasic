@@ -41,7 +41,7 @@ public class DFSTest {
             return;
         }
     }
-    
+
     public static void main(String[] args){
         DFSTest dfs = new DFSTest();
         Node root = new Node("A");

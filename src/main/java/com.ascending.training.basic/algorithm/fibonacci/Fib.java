@@ -12,5 +12,7 @@ public class Fib {
     public static void main(String[] args){
         Fib f = new Fib();
         f.fib(50);
+        double a=4.141;
+
     }
 }
